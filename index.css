@@ -1,0 +1,53 @@
+body {
+  background-color: cadetblue;
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+  background-color: crimson;
+  margin: auto;
+  width: 40rem;
+  height: 20rem;
+}
+.input {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  text-align: end;
+  justify-content: center;
+  background-color: white;
+  width: 39.5rem;
+  height: 10rem;
+  font-size: 5rem;
+}
+.btn {
+  height: 5rem;
+  width: 8rem;
+  font-size: 3rem;
+}
+.btnn {
+  height: 5rem;
+  width: 5rem;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  background: coral;
+}
+.operators {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: cornsilk;
+  width: auto;
+}
+.Aclear {
+  flex-grow: 1;
+  font-family: 2rem;
+}
+.clear {
+  flex-grow: 1;
+}
