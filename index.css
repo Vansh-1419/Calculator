@@ -1,5 +1,6 @@
 body {
   background-color: cadetblue;
+  margin-top: 5rem;
 }
 .calculator {
   display: flex;
@@ -25,10 +26,6 @@ body {
   width: 8rem;
   font-size: 3rem;
 }
-.btnn {
-  height: 5rem;
-  width: 5rem;
-}
 
 .numbers {
   display: flex;
@@ -46,7 +43,7 @@ body {
 }
 .Aclear {
   flex-grow: 1;
-  font-family: 2rem;
+  font-size: 3rem;
 }
 .clear {
   flex-grow: 1;
